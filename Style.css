@@ -13,5 +13,13 @@ body {
 
 
 .backg {
-    background-image: url(Media/freestocks-BStW5kYXw4E-unsplash.jpg);
+    background-image: url(Media/BackgroundI.jpg);
+}
+
+
+
+@media (min-width: 768px){
+   .navbar{
+    backdrop-filter: blur(.5px);
+   } 
 }
