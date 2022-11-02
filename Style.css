@@ -13,7 +13,10 @@ body {
 
 
 .backg {
-    background-image: url(Media/BackgroundI.jpg);
+    background-image: url(Media/b3.jpg);
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
 }
 
 
