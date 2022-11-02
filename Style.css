@@ -11,6 +11,10 @@ body {
     color:#ffed00;
 }
 
+
+.sti{
+    display: none;
+}
 .hnam {
     font-family: 'Monserrat';
     font-style: italic;
@@ -31,11 +35,11 @@ body {
 }
 
 .nav-link{
-    color: rgb(0, 136, 255);
     font-size: .8rem;
     transition: .3s;
     
 }
+
 
 .nav-link:hover {
     transform: scale(1.1);
@@ -72,6 +76,13 @@ body {
    .nav-link{
     font-size: 1rem;
    }
+   .sti{
+    display: inline;
+    position: absolute;
+    bottom: 30px;
+    left: 190px;
+    }
+    
 }
 
 
