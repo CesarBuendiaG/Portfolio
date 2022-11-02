@@ -16,7 +16,9 @@ body {
     font-style: italic;
     font-size: 57px;
 }
-
+.navbar{
+    backdrop-filter: blur(.8px);
+} 
 .backg {
     background-image: url(Media/b3.jpg);
     background-size: cover;
@@ -28,12 +30,55 @@ body {
     transition: .3s;
 }
 
+.nav-link{
+    color: rgb(0, 136, 255);
+    font-size: .8rem;
+    transition: .3s;
+    
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+
+}
+
 .links:hover{
     transform: scale(1.1);
 }
 
-@media (min-width: 768px){
-   .navbar{
-    backdrop-filter: blur(.5px);
-   } 
+.roll {
+    display: block;
+    white-space: nowrap;
+    border-right: 1px solid;
+    width: 18ch;
+    
+    animation: typing 2s steps(22), blink .5s infinite step-end alternate;
+    overflow:hidden;
 }
+    
+@keyFrames typing {
+    from { width: 0}
+}
+@keyFrames blink {
+     50% { border-color: transparent}
+}
+
+
+
+@media (min-width: 768px){
+   .profile{
+    width: 200px;
+   }
+   .nav-link{
+    font-size: 1rem;
+   }
+}
+
+
+.lorem {
+    background: transparent;
+    background-color: rgb(192, 192, 244);
+}
+
+
+
