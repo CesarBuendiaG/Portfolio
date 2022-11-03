@@ -11,7 +11,6 @@ body {
     color:#ffed00;
 }
 
-
 .sti{
     display: none;
 }
@@ -67,10 +66,9 @@ body {
      50% { border-color: transparent}
 }
 
-/* .aboutimg {
-    display: none;
-} */
-
+.sseccion{
+    background-color: rgb(160, 160, 164);
+}
 @media (min-width: 768px){
    .profile{
     width: 200px;
@@ -94,11 +92,11 @@ body {
 
  /* ------------------------------------------------------------------------------- */
  /* Tab de about me */
-.cont {
+/* .cont {
     background-color: rgba(141, 141, 141, 0.559);
     box-shadow: 0 2px 16px rgba(0, 0, 0, .1);
     border-radius: 18px;
-}
+} */
 
 .tab_box{
     border-bottom: 2px solid rgb(229, 229, 229);
