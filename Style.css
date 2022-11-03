@@ -67,7 +67,9 @@ body {
      50% { border-color: transparent}
 }
 
-
+/* .aboutimg {
+    display: none;
+} */
 
 @media (min-width: 768px){
    .profile{
@@ -82,14 +84,53 @@ body {
     bottom: 30px;
     left: 190px;
     }
-    
 }
 
 
-.lorem {
-    background: transparent;
-    background-color: rgb(192, 192, 244);
+.bg {
+    background: rgb(193,183,173);
+    background: radial-gradient(circle, rgba(193,183,173,1) 0%, rgba(235,207,178,1) 54%);
 }
 
+ /* ------------------------------------------------------------------------------- */
+ /* Tab de about me */
+.cont {
+    background-color: rgba(141, 141, 141, 0.559);
+    box-shadow: 0 2px 16px rgba(0, 0, 0, .1);
+    border-radius: 18px;
+}
 
+.tab_box{
+    border-bottom: 2px solid rgb(229, 229, 229);
+}
 
+.tab_box .tab_btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: blueviolet;
+    background: none;
+    border: none;
+    position: relative;
+}
+
+.tab_box .tab_btn:hover{
+    cursor: pointer;
+}
+
+.content_box .content{
+    display: none;
+}
+.content_box .content.active{
+    display: block;
+    animation: moving .5s ease;
+}
+@keyframes moving {
+    from{transform: translateX(50px);opacity: 0;}
+    to{transform: translateX(0px);opacity: 1;}
+}
+
+.tab_box .tab_btn.active{
+    color: #ffed00;
+}
+
+ /* ------------------------------------------------------------------------------- */
