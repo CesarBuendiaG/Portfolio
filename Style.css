@@ -1,5 +1,5 @@
 body {
-    /* background-color: gray; */
+    background-color: #1F2B32;
     font-family: 'Montserrat',sans-serif;
 }
 
@@ -23,10 +23,10 @@ body {
     backdrop-filter: blur(.8px);
 } 
 .backg {
-    background-image: url(Media/b3.jpg);
+    background-image: url(Media/b2.jpg);
     background-size: cover;
     background-position: start;
-    background-repeat: no-repeat;
+    border-radius: 0% 0% 50% 50% / 0% 0% 3% 3% ;
 }
 
 .links{
@@ -55,7 +55,7 @@ body {
     border-right: 1px solid;
     width: 18ch;
     
-    animation: typing 2s steps(22), blink .5s infinite step-end alternate;
+    animation: typing 1.3s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
 }
     
@@ -66,9 +66,6 @@ body {
      50% { border-color: transparent}
 }
 
-.sseccion{
-    background-color: rgb(160, 160, 164);
-}
 @media (min-width: 768px){
    .profile{
     width: 200px;
@@ -81,6 +78,9 @@ body {
     position: absolute;
     bottom: 30px;
     left: 190px;
+    }
+    .backg {
+        background-position: center;
     }
 }
 
@@ -100,6 +100,7 @@ body {
 
 .tab_box{
     border-bottom: 2px solid rgb(229, 229, 229);
+    
 }
 
 .tab_box .tab_btn{
@@ -129,6 +130,12 @@ body {
 
 .tab_box .tab_btn.active{
     color: #ffed00;
+}
+
+.cont{
+    color: white;
+    background-color: #354955;
+    border-radius: 15px;
 }
 
  /* ------------------------------------------------------------------------------- */
